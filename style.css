@@ -72,6 +72,7 @@ a:visited {
 
 .form-container {
   width: 75%;
+  max-height: 100vh;
 }
 
 .form-header,
@@ -105,6 +106,7 @@ a:visited {
   grid-template-columns: repeat(2, 1fr);
   padding: 2rem 12.5rem;
   gap: 1rem;
+  box-shadow: 0 0.2rem 5px black;
 }
 
 .form-field {
@@ -136,4 +138,37 @@ input {
 
 .error {
   border-color: darkred !important;
+}
+
+.form-footer {
+  margin-top: 0.4rem;
+  padding-top: 4rem;
+}
+
+.form-footer button,
+.form-footer p {
+  margin-left: 12.5rem;
+}
+
+button {
+  width: auto;
+  font-size: 36px;
+  font-family: "Norse Bold";
+  padding: 0.5rem 1rem;
+  background-color: seagreen;
+  color: white;
+  border: 1px solid seagreen;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px black;
+  transition: transform 0.05s;
+}
+
+button:active {
+  transform: scale(99%);
+}
+
+.form-footer p {
+  padding: 1rem 0;
+  font-size: 16px;
+  color: darkslategrey;
 }
