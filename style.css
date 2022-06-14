@@ -17,7 +17,7 @@ body {
 }
 
 .hero-container {
-  width: 25%;
+  width: 30%;
   height: 100vh;
   background-image: url("/assets/hero-image.jpg");
   background-size: cover;
@@ -31,6 +31,7 @@ body {
   margin: 10rem 0;
   padding: 1rem 0;
   background-color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 25rem;
 }
 
 .hero-logo-img {
@@ -41,6 +42,27 @@ body {
   font-family: "Norse Bold";
   font-size: 36px;
   color: white;
+}
+
+.photo-credits {
+  margin-top: 15rem;
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.a {
+  color: darkslategrey;
+}
+
+.a:hover,
+a:focus,
+a:visited:hover {
+  color: azure;
+}
+
+a:visited {
+  color: mediumseagreen;
 }
 
 .form-container {
