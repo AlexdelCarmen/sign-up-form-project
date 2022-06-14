@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: "Norse Bold";
-  src: url("/assets/Norse-Bold.otf");
+  src: url("./assets/Norse-Bold.otf");
 }
 
 body {
@@ -21,7 +21,7 @@ body {
 .hero-container {
   width: 30%;
   height: 100vh;
-  background-image: url("/assets/hero-image.jpg");
+  background-image: url("./assets/hero-image.jpg");
   background-size: cover;
   align-self: flex-start;
 }
