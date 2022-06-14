@@ -16,6 +16,8 @@ body {
   display: flex;
 }
 
+/* Hero styles */
+
 .hero-container {
   width: 30%;
   height: 100vh;
@@ -50,7 +52,7 @@ body {
   color: white;
   background-color: rgba(0, 0, 0, 0.6);
 }
-
+/*  reusable link styles */
 .a {
   color: darkslategrey;
 }
@@ -64,6 +66,8 @@ a:visited:hover {
 a:visited {
   color: mediumseagreen;
 }
+
+/* Form styles */
 
 .form-container {
   width: 60%;
