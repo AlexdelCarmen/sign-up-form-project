@@ -51,6 +51,7 @@ body {
   text-align: center;
   color: white;
   background-color: rgba(0, 0, 0, 0.6);
+  font-size: 12px;
 }
 /*  reusable link styles */
 .a {
@@ -70,5 +71,23 @@ a:visited {
 /* Form styles */
 
 .form-container {
-  width: 60%;
+  width: 75%;
+}
+
+.form-header,
+.form-footer {
+  background-color: gainsboro;
+  width: 100%;
+}
+
+.form-header-text {
+  width: 65%;
+  margin: 0 auto;
+  padding: 1rem 0;
+  font-size: 21px;
+}
+
+.form-header-text > em {
+  color: seagreen;
+  font-weight: bold;
 }
